@@ -713,12 +713,12 @@ section,
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
-.stats-item {
+.resume .stats-item {
   padding: 30px;
   width: 100%;
 }
 
-.stats-item i {
+.resume .stats-item i {
   color: var(--accent-color);
   display: block;
   font-size: 44px;
@@ -726,7 +726,7 @@ section,
   line-height: 0;
 }
 
-.stats-item .purecounter {
+.resume .stats-item .purecounter {
   color: var(--heading-color);
   font-size: 48px;
   line-height: 40px;
@@ -735,7 +735,7 @@ section,
   margin-left: 60px;
 }
 
-.stats-item p {
+.resume .stats-item p {
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
