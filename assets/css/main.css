@@ -648,15 +648,77 @@ section,
   line-height: 0;
 }
 
+
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+.publications .content h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.publications .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.publications .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.publications .content ul strong {
+  margin-right: 10px;
+}
+
+.publications .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: var(--accent-color);
+  line-height: 0;
+}
+
+/*--------------------------------------------------------------
+# media Section
+--------------------------------------------------------------*/
+.media .content h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.media .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.media .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.media .content ul strong {
+  margin-right: 10px;
+}
+
+.media .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: var(--accent-color);
+  line-height: 0;
+}
+
+
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
-.stats .stats-item {
+.stats-item {
   padding: 30px;
   width: 100%;
 }
 
-.stats .stats-item i {
+.stats-item i {
   color: var(--accent-color);
   display: block;
   font-size: 44px;
@@ -664,7 +726,7 @@ section,
   line-height: 0;
 }
 
-.stats .stats-item .purecounter {
+.stats-item .purecounter {
   color: var(--heading-color);
   font-size: 48px;
   line-height: 40px;
@@ -673,7 +735,7 @@ section,
   margin-left: 60px;
 }
 
-.stats .stats-item p {
+.stats-item p {
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
