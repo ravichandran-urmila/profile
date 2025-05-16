@@ -761,13 +761,13 @@ section,
   margin-left: 60px;
 }
 
-.resume .stats-item span {
+./*resume .stats-item span {
   color: var(--heading-color);
   font-size: 48px;
   line-height: 40px;
   display: block;
   font-weight: 700;
-  margin-left: 60px;
+  margin-left: 60px;*/
 }
 
 .resume .stats-item p {
