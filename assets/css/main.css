@@ -749,8 +749,7 @@ section,
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 15px;
-  display: inline;
+  margin-right: 15px; 
   vertical-align: middle;
 }
 
@@ -781,7 +780,11 @@ section,
 }
  
 
-
+.media ul {
+  list-style: none;
+  padding-left: 0; /* Optional: removes default indentation */
+  margin: 0;
+}
  .media li i {
   font-size: 16px;
   margin-right: 5px;
@@ -790,6 +793,11 @@ section,
   vertical-align: middle;
 }
 
+.publications ul {
+  list-style: none;
+  padding-left: 0; /* Optional: removes default indentation */
+  margin: 0;
+}
 .publications li i {
   font-size: 16px;
   margin-right: 5px;
