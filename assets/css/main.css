@@ -750,6 +750,8 @@ section,
   align-items: center;
   justify-content: center;
   margin-right: 15px;
+  display: inline;
+  vertical-align: middle;
 }
 
 .resume .stats-item .purecounter {
@@ -778,6 +780,24 @@ section,
   font-size: 14px;
 }
  
+
+
+ .media li i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: var(--accent-color);
+  line-height: 0;
+  vertical-align: middle;
+}
+
+.publications li i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: var(--accent-color);
+  line-height: 0;
+  vertical-align: middle;
+}
+
 
 /*--------------------------------------------------------------
 # Skills Section
