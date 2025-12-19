@@ -692,6 +692,28 @@ section,
   line-height: 0;
 }
 
+
+/*--------------------------------------------------------------
+# LOR Section
+--------------------------------------------------------------*/
+/* 1. Initial State: Blue and Italic */
+.lor-quote {
+    font-style: italic;
+    color: var(--accent-color);/* A standard blue color. Adjust this hex code to match your theme's blue. */
+    font-weight: normal; /* Ensures it starts unbolded */
+    transition: font-weight 0.2s ease; /* Smooth transition for the hover effect */
+}
+
+/* 2. Hover State: Make it Bold */
+/* When the mouse hovers over the entire card, make the quote bold */
+.lor-card:hover .lor-quote {
+    font-weight: bold; 
+    color: var(--accent-color); /* Optional: A slightly darker blue on hover */
+    font-size: 16px;
+}
+
+/* Note: Ensure your overall card div has the class 'lor-card' for the hover effect to work as written above. */
+
 /*--------------------------------------------------------------
 # media Section
 --------------------------------------------------------------*/
